@@ -25,10 +25,19 @@ venv/
 ENV/
 env/
 
-# Dataset backups
+# Dataset backups and temporary files
 *.bak
 *.moved
 backups/
+data/*.bak
+data/*.moved
+data/*.invalid_lines.log
+
+# Models
+models/
+*.model
+*.pkl
+*.h5
 
 # IDE
 .vscode/
