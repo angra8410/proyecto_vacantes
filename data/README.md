@@ -4,9 +4,10 @@
 
 Este directorio contiene los datasets de entrenamiento para el proyecto.
 
-### Archivo Principal
+### Archivos
 
 - `training_data.jsonl` - Dataset principal en formato JSONL (JSON Lines)
+- `training_data.example.jsonl` - Archivo de ejemplo con formato correcto
 
 ### Formato
 
@@ -15,6 +16,8 @@ Cada línea debe ser un objeto JSON válido:
 ```json
 {"text": "Contenido de la vacante o descripción"}
 ```
+
+Ver `training_data.example.jsonl` para ejemplos completos.
 
 ## Importante
 
