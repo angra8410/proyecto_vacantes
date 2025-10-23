@@ -14,6 +14,20 @@ proyecto_vacantes/
 └── README.md                     # Este archivo
 ```
 
+## Verificación Rápida
+
+Para verificar que tu proyecto está configurado correctamente:
+
+```bash
+python scripts/verify_setup.py
+```
+
+Este script verifica:
+- ✓ Estructura de directorios correcta
+- ✓ No hay datasets en ubicaciones incorrectas (venv/data/)
+- ✓ .gitignore configurado correctamente
+- ✓ Scripts necesarios presentes
+
 ## Gestión de Datasets
 
 ### Ubicación Oficial
